@@ -38,7 +38,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.sub-headling-color {
+.sub-heading-color {
   color: var(--highlight-color);
 }
 
@@ -78,6 +78,37 @@ h2 {
 #new-games .card,
 #fav-games .card{
   border: 0px;
+}
+
+/*Footer*/
+#contact{
+  background-color: var(--primary-color);
+  color: white;
+  padding-bottom: 3rem;
+}
+
+#contact h2{
+  color: white;
+}
+
+#contact .sub-heading-color{
+  color: var(--light-highlight-color);
+}
+
+#contact i{
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#contact .social-links i{
+  color: var(--light-highlight-color);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover{
+  color: var(--secondary-color);
 }
 
 /*Media Queries*/
