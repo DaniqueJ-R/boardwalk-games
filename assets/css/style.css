@@ -3,26 +3,42 @@
 
 
 /*CSS Variables*/
-:root{
+:root {
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Macondo", cursive;
-  --primary-color: #3a2620; /*dark brown*/
-  --secondary-color: #aa9581; /*light brown*/
-  --highlight-color: #416a8e; /*blue*/
-  --light-highlight-color: #7a9fc2; /*light blue*/
+  --primary-color: #3a2620;
+  /*dark brown*/
+  --secondary-color: #aa9581;
+  /*light brown*/
+  --highlight-color: #416a8e;
+  /*blue*/
+  --light-highlight-color: #7a9fc2;
+  /*light blue*/
 }
+
 /*Global styles*/
-body{
+body {
   font-family: var(--primary-font);
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+
+}
+
+h1,
+h2 {
   text-transform: uppercase;
 }
 
-.sub-headling-color{
+h2 {
+  margin-bottom: 2rem;
+}
+
+.sub-headling-color {
   color: var(--highlight-color);
 }
 
@@ -32,21 +48,58 @@ h1, h2, h3{
 }
 
 /*Navbar*/
- #navbar{
+#navbar {
   background-color: var(--primary-color);
- }
+}
 
- #navbar .logo{
+#navbar .logo {
   width: 30px;
- }
+}
 
- /*Header*/
+/*Header*/
 
- #header .lead{
+#header .lead {
   font-family: var(--secondary-font);
- }
+}
 
- 
+/*Services*/
+
+#services .card-footer{
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#services .card{
+  margin-bottom: 1.5rem;
+}
+
+/*Media Queries*/
+
+/*Medium devices (768px or larger)*/
+@media screen and (min-width: 768px) {
+  /*Makes all card bodies same height for consistency*/
+  #services .card-body{
+    min-height: 195px;
+  }
+}
+
+/*Large devices (992px or larger)*/
+@media screen and (min-width: 992px) {
+  /*Makes all card bodies same height for consistency*/
+  #services .card-body{
+    min-height: auto;
+  }
+}
+
+/* Extra Large devices (1200px or larger)*/
+@media screen and (min-width: 1200px) {
+  /*Makes all card bodies same height for consistency*/
+  #services .card-body{
+    min-height: 217px;
+  }
+}
+
 /* grid visualisation CSS for testing */
 
 /*.container,
