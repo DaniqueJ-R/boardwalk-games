@@ -20,45 +20,72 @@
 
 </head>
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
-
-<!-- Header with carasol -->
-<header class="container">
-    <div class="row">
-        <div class="col-12 col-xl-6">boardwalk games intro text</div>
-        <div class="col-12 col-xl-6">carasol</div>
+    <div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-right">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="game-library.html">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-</header>
 
-<!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
- <main>
-<!-- service section -->
-<section class="container">
-    <div class="row">
-        <div class="col-12">Services section heading</div>
-        <div class="col-12 col-md-6 col-xl-3">Service cards</div>
-        <div class="col-12 col-md-6 col-xl-3">Service cards</div>
-        <div class="col-12 col-md-6 col-xl-3">Service cards</div>
-        <div class="col-12 col-md-6 col-xl-3">Service cards</div>
-    </div>
- </section>
-</main>
-
-<!-- Footer/contact us -->
-    <!-- mt-auto added to push footer to the bottom of the page -->
- <footer class="mt-auto">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12">Contact us section</div>
-            <!-- Contact info -->
-            <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
-            <!-- Opening times -->
-            <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+    <!-- Header with carasol -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">boardwalk games intro text</div>
+            <div class="col-12 col-xl-6">carasol</div>
         </div>
-    </div>
- </footer>
+    </header>
+
+    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
+    <main>
+        <!-- service section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Service cards</div>
+                <div class="col-12 col-md-6 col-xl-3">Service cards</div>
+                <div class="col-12 col-md-6 col-xl-3">Service cards</div>
+                <div class="col-12 col-md-6 col-xl-3">Service cards</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer/contact us -->
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact us section</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
+    </footer>
 
     <!--FontAwsome Link-->
     <script src="https://kit.fontawesome.com/9e540e0242.js" crossorigin="anonymous"></script>
