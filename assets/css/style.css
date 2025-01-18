@@ -74,6 +74,12 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/*New Games section*/
+#new-games .card,
+#fav-games .card{
+  border: 0px;
+}
+
 /*Media Queries*/
 
 /*Medium devices (768px or larger)*/
@@ -96,6 +102,12 @@ h2 {
 @media screen and (min-width: 1200px) {
   /*Makes all card bodies same height for consistency*/
   #services .card-body{
+    min-height: 217px;
+  }
+  #new-games .card-body{
+    min-height: 217px;
+  }
+  #fav-games .card-body{
     min-height: 217px;
   }
 }
