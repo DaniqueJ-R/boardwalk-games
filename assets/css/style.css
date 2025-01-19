@@ -19,6 +19,7 @@
 /*Global styles*/
 body {
   font-family: var(--primary-font);
+  padding-top: 57px; /*Added for nav bar space to not overlap as it is now fixed top*/
 }
 
 h1,
