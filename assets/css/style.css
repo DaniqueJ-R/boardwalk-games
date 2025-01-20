@@ -109,7 +109,7 @@ padding: 4rem;
   /* events table font size small enough that 
     the table doesn't overflow on xs screens. 
     Size set back to 1rem in a media query 
-    for sm screens and up */
+    for sm screens and up (Added by source)*/
   font-size: 0.7rem;
 }
 
@@ -149,6 +149,8 @@ padding: 4rem;
 #contact .social-links i{
   color: var(--light-highlight-color);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -202,15 +204,3 @@ padding: 4rem;
     min-height: 217px;
   }
 }
-
-/* grid visualisation CSS for testing */
-
-/*.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}*/
